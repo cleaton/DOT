@@ -1,0 +1,9 @@
+compatibility_date = "2023-07-25"
+
+durable_objects.bindings = [
+  { name = "TEST", class_name = "DotExample" }
+]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["DotExample"]

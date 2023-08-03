@@ -1,0 +1,24 @@
+{
+  "name": "dot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "./tests.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230628.0",
+    "miniflare": "^3.20230628.0",
+    "tsm": "^2.3.0",
+    "typescript": "^5.1.6",
+    "uvu": "^0.5.6",
+    "wrangler": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.4"
+  }
+}
